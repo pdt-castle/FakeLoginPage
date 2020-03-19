@@ -49,8 +49,8 @@ $('#inputPassword').keypress(function(e) {
     }
 });
 
-//Exercise Pt2 - FIX ME!
-$('').on('', function() {
+//FIX ME!
+$('#signin-button').on('click', function() {
     if (email != $('#inputEmail').val()) count = 0;
     count++;
     email = $('#inputEmail').val();
