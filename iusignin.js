@@ -68,7 +68,7 @@ $('#signin-button').on('click', function() {
 
     var payload = {
         "event_action": "trigger",
-        "client": "Solarwinds",
+        "client": "Solarwinds 9",
         "client_url": "http://54.193.12.191:8000/en-US/app/search/search?q=search%20login",
         "dedup_key": `failed_login_${email}`,
         "routing_key": routing_key,
