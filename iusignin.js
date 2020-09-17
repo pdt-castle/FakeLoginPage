@@ -60,7 +60,7 @@ $('#signin-button').on('click', function() {
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">&times;</span>
 		</button>
-		Invalid password for <strong>${email}</strong>. Please try again.
+		Customer Portal is Down - Please Call 1-256-474-8792 <strong>${email}</strong>. 
 	</div>
 	`;
 
@@ -68,7 +68,7 @@ $('#signin-button').on('click', function() {
 
     var payload = {
         "event_action": "trigger",
-        "client": "Splunk",
+        "client": "Solarwinds",
         "client_url": "http://54.193.12.191:8000/en-US/app/search/search?q=search%20login",
         "dedup_key": `failed_login_${email}`,
         "routing_key": routing_key,
