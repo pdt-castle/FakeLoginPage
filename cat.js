@@ -60,7 +60,7 @@ $('#signin-button').on('click', function() {
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">&times;</span>
 		</button>
-		Customer Portal is Down - Please Call 1-256-474-8792 <strong>${email}</strong>. 
+		Customer Portal is Down - Please Call 1-256-474-8792 to report<strong>${email}</strong>. 
 	</div>
 	`;
 
